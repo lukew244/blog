@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="home">
+<div id="profile-pic">
+    <img src="/assets/profile.jpg" alt="profile" />
+</div>
+
+  <br>
+  <p> My name is Luke, and I am a full-stack developer at Makers Academy.
+    Once a senior adviser and speechwriter in Parliament,
+    I traded politics for programming, to challenge myself in a new career
+    and indulge a love of all things tech. If you are interested in hiring me
+    please <a href="mailto:{{ site.email }}"> get in touch</a>, or
+    checkout my code on <a href="{{site.github_username}}">Github</a>.
+  </p>
+  <p>
+  <!-- This blog shares a few of the lessons I've learned on this journey.
+  I hope it will be helpful to others travelling the same road,
+  particularly at Makers Academy. -->
+  </p>
+  <div class="post-area">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h3>
+          {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+</div>
