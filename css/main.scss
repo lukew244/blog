@@ -49,6 +49,25 @@ $on-laptop:        800px;
     // -webkit-filter: grayscale(100%);
 }
 
+.post-title {
+  color: darkred;
+}
+
+
+.subheading {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  color: darkred;
+}
+
+.caption {
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
 // @include media-query($on-palm) {
