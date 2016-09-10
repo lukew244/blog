@@ -17,7 +17,8 @@ Third party APIs can greatly enhance what your app does - for example, allowing 
 {% highlight html %}
 facebook_app_secret: 12345678987654321
 {% endhighlight %}
-<p class="caption"> What your code shouldn't look like.</p>
+How your code shouldn't look.
+{: class="caption"}
 
 Fortunately, this problem can be easily avoided using environment variables.
 
