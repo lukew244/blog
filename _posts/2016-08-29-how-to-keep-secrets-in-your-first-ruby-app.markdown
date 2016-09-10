@@ -2,7 +2,8 @@
 layout: post
 title:  "How to keep secrets safe in your first Ruby app"
 date:   2016-08-29 13:12:38 +0100
-categories: Ruby
+categories:
+tags: [Ruby]
 ---
 
 
