@@ -73,6 +73,13 @@ $on-laptop:        800px;
   margin-right: auto;
 }
 
+.footnotes {
+  font-size: 12px;
+  border-top: 1px solid black;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
 // @include media-query($on-palm) {
