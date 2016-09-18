@@ -5,7 +5,10 @@ date:   2016-09-15 13:12:38 +0100
 categories: Fundamentals
 ---
 
+![Code](/assets/code2.jpg){:class="post-img" :margin-bottom="30px"}
+
 Granted, there is no magic trinity of ideas that can capture the art of writing 'good' code. Yet, of all the lessons I've learned about code craftsmanship at Makers Academy, these principles are among the most fundamental:
+
 
 #### Good code is readable.
 {: class="subheading"}
